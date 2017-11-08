@@ -1,7 +1,7 @@
 import json
 
 src='./search/movies.json'
-trgt='./search/movies-rating.json'
+trgt='./search/movies-new.json'
 details_folder='./details/'
 count=0
 
@@ -15,6 +15,7 @@ with open(src) as sfile:
             details=json.load(dfile)
             rating=details['imdbRating']
         rec['imdbRating']=rating
+        rec['Poster']='/images/{}.jpg'.format(id);
 
 with open(trgt,'w') as tfile:
     json.dump(data,tfile)
