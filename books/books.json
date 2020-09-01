@@ -1,4 +1,15 @@
-[{
+[
+  {
+    "title": "The Accursed God",
+    "author": "Vivek Dutta Mishra",
+    "description": "The epic tale of Mahabharata searching if it was just a family fued as you were made to believe or it was the first world war? Follow through the first book of The Lost Epic Series",
+    "bookId": "00108",
+    "price": 199,
+    "rating": 4.8,
+    "cover": "the-accursed-god.png",
+    "tags": "Crime,Adventure,Classic,Best-Seller,Revenge,Justice"
+  },
+  {
     "title": "The Count of Monte Cristo",
     "author": "Alexandre Dumas",
     "description": "The story of a person wrongly implicated for a false crime and is send to prison. He returns  to seek the vengeane, love and justice.",
